@@ -18,7 +18,7 @@ export default function IndexPage() {
       </div>
       <div className="flex gap-4">
         <Link
-          href={siteConfig.links.docs}
+          href={siteConfig.button.sound}
           target="_blank"
           rel="noreferrer"
           className={buttonVariants()}
@@ -28,7 +28,7 @@ export default function IndexPage() {
         <Link
           target="_blank"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href={siteConfig.button.connect}
           className={buttonVariants({ variant: "outline" })}
         >
           GitHub
